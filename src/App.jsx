@@ -1,12 +1,12 @@
 import Header from "./components/header"
-// import Hero from './components/Hero';
+import Hero from './components/hero';
 
 
 const App = () => {
   return (
     <main className="bg-black">
       <Header />
-      {/* <Hero /> */}
+      <Hero />
     </main>
   )
 }
